@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Page1';
+  newPost = 'NO CONTENT';
+
+  onAddPost() {
+    this.newPost = 'Hello from Angular';
+  }
+
+
 }
